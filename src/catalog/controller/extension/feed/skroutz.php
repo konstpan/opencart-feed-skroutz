@@ -1,6 +1,6 @@
 <?php
 
-class ControllerFeedSkroutz extends Controller {
+class ControllerExtensionFeedSkroutz extends Controller {
   
   public function index() {
     if ($this->config->get('skroutz_status')) {
